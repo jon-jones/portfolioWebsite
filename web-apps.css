@@ -35,7 +35,7 @@ body {
 
 .apps {
     padding: 7% 15%;
-    background: linear-gradient( rgba(0, 0, 0, .75), rgba(0, 0, 0, 0) ), url('images/webapp2.jpeg');
+    background: linear-gradient( rgba(0, 0, 0, .75), rgba(0, 0, 0, 0) ), url('images/webapp2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
