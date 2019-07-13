@@ -37,7 +37,7 @@ body {
 }
 
 
-.bgimage h1 {
+.big-title {
     color:white;
     text-shadow: 2px 2px #333;
     font-size: 4rem;
@@ -89,8 +89,6 @@ body {
     background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('images/desk.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    overflow-x: hidden; 
-    overflow: hidden;
 }
 
 .about-me-h2 {
