@@ -221,9 +221,3 @@ body {
     -ms-transform: translate(0px, 0px);
     transform: translate3d(0px, 0px, 0px);
   }
-
-@media only screen and (max-width: 600px) {
-    .bgimage {
-        background-size: contain;
-    }
-}
