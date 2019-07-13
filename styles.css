@@ -215,4 +215,9 @@ body {
     body {
       overflow: hidden;
     }
+
+    .bgimage {
+        background-size: contain;
+    }
+
   }
