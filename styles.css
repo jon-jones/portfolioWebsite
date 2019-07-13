@@ -1,6 +1,11 @@
 html {
     
-  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
  
 }
 
@@ -50,11 +55,6 @@ body {
     background-attachment: fixed;
     overflow-x: scroll; 
     overflow: scroll;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-
 }
 
 
@@ -232,3 +232,18 @@ body {
     -ms-transform: translate(0px, 0px);
     transform: translate3d(0px, 0px, 0px);
   }
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+	.bgimage {
+        width: 100%;
+        height: 100vh;
+        margin:0;
+        background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('images/index2.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-attachment: fixed;
+        overflow-x: scroll; 
+        overflow: scroll;
+    }
+}
