@@ -1,0 +1,209 @@
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Restaurant Example</title>
+
+        <!-- Bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+
+        <!-- CSS & JS Stylesheet -->
+        <link rel="stylesheet" href="restaurant.css">
+
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/b37aae6926.js"></script>
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,900&display=swap" rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css?family=Abril+Fatface|Italianno|Titillium+Web:600,700,900&display=swap"
+            rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- First Section with hero image and two navigation bars -->
+        <section id="hero">
+            <!-- holds the hero image -->
+            <div class="bgimage">
+                <!-- First Nav Bar -->
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <!-- Goes back to original homepage of my website through brand-->
+                    <a class="navbar-brand jon-navbar-brand" href="index.html">Back to Jon Jones's Website</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item jon-nav-item">
+                                <!-- Goes back to the website examples -->
+                                <a class="nav-link" href="websites.html">Back to Website Examples<span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <!--End Nav Bar-->
+
+                <!-- Second Nav Bar -->
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <!-- Home page through brand -->
+                    <a class="navbar-brand" href="restaurant.html">SORRISO</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <!-- Uses anchors to go to appropriate sections -->
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#menu">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#location">Location & Hours</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <!--End Nav Bar-->
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="hero-text">
+                            <h1 class="big-title">SORRISO</h1>
+                            <!-- Link to thank you page -->
+                            <a href="thanks.html"><button class="btn btn-dark btn-small">Reserve A Table</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- End of bgimage -->
+        </section><!-- End of hero section -->
+
+        <!-- Second Section with the menu -->
+        <section class="menu" id="menu">
+            <div class="container-fluid">
+                <!-- Applies the darker gradient behind text -->
+                <div class="gradient">
+                    <!-- Top Title -->
+                    <h2 class="menu-titles-h2"><strong>Menu</strong></h2>
+                    <!-- Starts two rows for wine and appetizers -->
+                    <div class="row">
+                        <div class="col-sm">
+                            <h3 class="menu-titles">Wine</h3>
+                            <p class="menu-info">House Red Blend</p>
+                            <p class="menu-info">House White Blend</p>
+                            <p class="menu-info">Cabernet</p>
+                            <p class="menu-info">Merlot</p>
+                            <p class="menu-info">Moscato</p>
+                        </div>
+                        <div class="col-sm">
+                            <h3 class="menu-titles">Appetizers</h3>
+                            <p class="menu-info">Garlic Bread</p>
+                            <p class="menu-info">Herbed Tomato Tart</p>
+                            <p class="menu-info">Braised Artichokes</p>
+                            <p class="menu-info">Ricotta and Red Pepper Frittata</p>
+                            <p class="menu-info">Frittatine di Pasta</p>
+                        </div>
+                    </div>
+                    <!-- No row, just two single columns -->
+                    <div class="col-sm">
+                        <h3 class="menu-titles">Entrees</h3>
+                        <p class="menu-info">Caprese Salad</p>
+                        <p class="menu-info">Eggplant Parmesan</p>
+                        <p class="menu-info">Caponata with Pine Nuts</p>
+                        <p class="menu-info">Pasta all'Amatriciana</p>
+                        <p class="menu-info">Fettuccine Alfredo</p>
+                    </div>
+                    <div class="col-sm">
+                        <h3 class="menu-titles">Desserts</h3>
+                        <p class="menu-info">Tiramisu</p>
+                        <p class="menu-info">Cannolis</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Third Section About Us -->
+        <section class="about-us-section" id="about">
+            <div class="container-fluid">
+                <!-- Applies the darker gradient behind text -->
+                <div class="gradient">
+                    <h2 class="titles-h2"><span>About Us</span></h2>
+                    <h3 class="titles">Origin</h3>
+                    <p class="info">
+                        Started learning from grandma in the kitchen as kid, to evolving into a 5 star restaurant
+                        everyone loves and enjoys today.
+                    </p>
+                    <h3 class="titles">Culture</h3>
+                    <p class="info">
+                        Every plate is made and inspired from real italian food. Every meal is important to us,
+                        as great food and memories is where our success comes from. From our classy restaurant
+                        to our delicious food, this is where you want to start or end your perfect night out.
+                    </p>
+                    <h3 class="titles">Ingredients</h3>
+                    <p class="info">
+                        All of our ingredients are fresh, organic, and locally sourced!
+                    </p>
+                    <!-- Link to thank you page -->
+                    <a href="thanks.html"><button class="btn btn-dark btn-small">Reserve A Table</button></a>
+                </div>
+            </div>
+        </section>
+        <!--End of About Us-->
+
+        <!-- Fourth Section location and hours -->
+        <section class="location" id="location">
+            <div class="container-fluid">
+                <!-- Applies the darker gradient behind text -->
+                <div class="gradient">
+                    <h2 class="titles-h2">Location and Hours</h2>
+                    <!-- Two columns for location and hours -->
+                    <div class="row">
+                        <div class="col-sm">
+                            <h3 class="titles">Location</h3><br>
+                            <p class="info">
+                                Main Street<br>
+                                1111 Main St, City, State <br><br>
+                                New Location Coming Soon..
+                            </p>
+                        </div>
+                        <div class="col-sm">
+                            <h3 class="titles">Hours</h3><br><br>
+                            <p class="info">
+                                Sunday-Thursday: 11a-10p<br>
+                                Friday & Saturday: 11a-12a
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="#footer">
+            <div class="container-fluid footer">
+                <!-- Social Media links go to thank you page -->
+                <a href="thanks.html"><i class="social fab fa-facebook-square fa-4x"></i></a>
+                <a href="thanks.html"><i class="social fab fa-instagram fa-4x"></i></a>
+                <a href="thanks.html"><i class="social fab fa-twitter fa-4x"></i></a>
+            </div>
+        </footer>
+
+    </body>
+
+</html>

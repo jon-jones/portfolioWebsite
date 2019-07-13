@@ -1,0 +1,253 @@
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Law Firm Example</title>
+
+
+        <!-- Bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+
+        <!-- JQuery -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+        <!-- CSS & JS Stylesheet -->
+        <link rel="stylesheet" href="law.css">
+        <script src="law.js"></script>
+
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/b37aae6926.js"></script>
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Cardo:400,700&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <!-- First Section with hero image and two navigation bars -->
+        <section id="hero">
+            <!-- holds the hero image -->
+            <div class="bgimage">
+                <!-- First Nav Bar -->
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <!-- Goes back to original homepage of my website through brand-->
+                    <a class="navbar-brand jon-navbar-brand" href="index.html">Back to Jon Jones's Website</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item jon-nav-item">
+                                <!-- Goes back to the website examples -->
+                                <a class="nav-link" href="websites.html">Back to Website Examples<span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <!--End Nav Bar-->
+
+                <!-- Second Nav Bar -->
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <!-- Home page through brand -->
+                    <a class="navbar-brand" href="restaurant.html">Jones Law</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <!-- Uses anchors to go to appropriate sections -->
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">Practices</a>
+                                <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="thanks.html">Criminal Defense</a>
+                                    <a class="dropdown-item" href="thanks.html">OVI Defense</a>
+                                    <a class="dropdown-item" href="thanks.html">Bails & Bonds</a>
+                                    <a class="dropdown-item" href="thanks.html">Name Change</a>
+                                    <a class="dropdown-item" href="thanks.html">Expungements</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="thanks.html">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="thanks.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <!--End Nav Bar-->
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="hero-text">
+                            <h1 class="big-title">Jones Law<br><br>
+                                <p class="info">
+                                    1111 main st, City, State 99999
+                                </p>
+                            </h1>
+
+                            <!-- Link to thank you page -->
+                            <a href="thanks.html"><button class="consult tn btn-dark btn-lrg">Book a
+                                    Consultation!</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- End of bgimage -->
+        </section><!-- End of hero section -->
+
+        <!-- Second Section with the menu -->
+        <section class="results" id="results">
+            <div class="container-fluid">
+                <!-- Top Title -->
+                <div class="row">
+                    <div class="col-sm">
+                        <h2 class="common-h2"><strong>Proven Results</strong></h2>
+                        <a href="thanks.html"><button class="case-results consult btn btn-dark btn-lrg">View Our Case
+                                Results</button></a><br><br>
+                    </div>
+                    <div class="test col-md">
+                        <h4 class="charge">Charge(s): Domestic Violence</h3>
+                            <h3 class="not-guilty"><i class="check fas fa-check-square"></i>Not Guilty</h3>
+                    </div>
+                    <div class="test col-md">
+                        <h4 class="charge">Charge(s): Drug Possession</h3>
+                            <h3 class="not-guilty"><i class="check fas fa-check-square"></i>Not Guilty</h3>
+                    </div>
+                    <div class="test col-md">
+                        <h4 class="charge">Charge(s): Theft</h3>
+                            <h3 class="not-guilty"><i class="check fas fa-check-square"></i>Not Guilty</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Third Section About Us -->
+        <section class="about/location" id="about">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm">
+                        <!-- Applies the darker gradient behind text -->
+                        <div class="bubble">
+                            <h2 class="titles-h2"><span>About Us</span></h2>
+                            <p class="info">
+                                Jones Law is firm that specilizes in criminal, OVI, and various types of defense and
+                                services.
+                                We have a track record of defending you with award winning proper representation. When
+                                your
+                                life is on the line, in moments when you need the most help; we are here to get you on
+                                the
+                                right justiful path.
+                            </p>
+                            <!-- Link to thank you page -->
+                            <a href="thanks.html"><button class="consult btn btn-dark btn-small">Learn More</button></a>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <!-- Fourth Section location and hours -->
+                        <section class="location" id="location">
+                            <div class="container-fluid">
+                                <!-- Applies the darker gradient behind text -->
+                                <div class="bubble2">
+                                    <h2 class="titles-h2">Location and Hours</h2>
+                                    <!-- Two columns for location and hours -->
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <h3 class="titles">Location</h3>
+                                            <p class="info">
+                                                Main Street<br>
+                                                1111 Main St, City, State <br><br>
+                                                New Location Coming Soon..
+                                            </p>
+                                        </div>
+                                        <div class="col-sm">
+                                            <h3 class="titles">Hours</h3>
+                                            <p class="info">
+                                                Monday-Friday: 9a-6p<br><br>
+                                                Saturday & Sunday: Appointment Only
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End of About Us-->
+
+        <section class="review" id="review">
+            <div class="container-fluid">
+                <!-- Top Title -->
+                <h2 class="common-h2"><strong>Client Satisfaction</strong></h2>
+                <a href="thanks.html"><button class="consult review-btn btn btn-dark btn-lrg">Click Here to Leave a
+                        Review</button></a><br><br>
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="review-bubble">
+                            <h3 class="review-title">James Franco</h3>
+                            <i class="star fas fa-star"></i><i class="star fas fa-star"></i><i
+                                class="star fas fa-star"></i><i class="star fas fa-star"></i><i
+                                class="star fas fa-star"></i>
+
+                            <p class="review-p">With the world so crazy nowadays, you could not be in safer hands
+                                than with Jones Law!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="review-bubble">
+                            <h3 class="review-title">H. Jon Benjamin</h3>
+                            <i class="star fas fa-star"></i><i class="star fas fa-star"></i><i
+                                class="star fas fa-star"></i><i class="star fas fa-star"></i><i
+                                class="star fas fa-star"></i>
+                            <p class="review-p">Jones Law saved my life!</p>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="review-bubble">
+                            <h3 class="review-title">Benedict Cumberbatch</h3>
+                            <i class="star fas fa-star"></i><i class="star fas fa-star"></i><i
+                                class="star fas fa-star"></i><i class="star fas fa-star"></i><i
+                                class="star fas fa-star"></i>
+                            <p class="review-p">Very pleased with the outcome, I would refer Jones Law to my friends and
+                                family!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="#footer">
+            <div class="container-fluid footer">
+                <!-- Social Media links go to thank you page -->
+                <a href="thanks.html"><i class="social fab fa-facebook-square fa-4x"></i></a>
+                <a href="thanks.html"><i class="social fab fa-instagram fa-4x"></i></a>
+                <a href="thanks.html"><i class="social fab fa-twitter fa-4x"></i></a>
+            </div>
+        </footer>
+
+    </body>
+
+</html>

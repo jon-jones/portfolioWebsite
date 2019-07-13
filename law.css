@@ -1,0 +1,334 @@
+body {
+    text-align: center;
+    background-color: #fbf7f5;
+}
+
+.titles {
+    color:#fbf7f5;
+    font-family: 'Cardo';
+    letter-spacing: .5px;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.titles-h2 {
+    padding-bottom: 3%;
+    color: #fbf7f5;
+    font-family: 'Cardo';
+    letter-spacing: .5px;
+    font-weight: 700;
+    font-size: 4rem;
+    text-shadow: 2px 2px #000;
+    text-align: center;
+}
+
+
+.info {
+    color: #fbf7f5;
+    font-family: 'Cardo';
+    font-weight: 400;
+    letter-spacing: .75px;
+    font-size: 1.3rem;
+    box-shadow: 0 !important;
+    text-align: center;
+}
+
+/* Hero Section */
+
+.big-title {
+    color:#fbf7f5;
+    text-shadow: 4px 4px #000;
+    font-size: 4rem;
+    font-family: 'Cardo';
+    letter-spacing: .5px;
+    font-weight: 700;
+    padding-top: 40%;
+    margin: 40% 0;
+    text-shadow: 1px 1px #000;
+}
+
+.navbar-nav .dropdown > li > .dropdown-menu {
+     background-color: #FF0000; 
+}
+
+.gradient {
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) );
+    border-radius: 3rem;
+    padding: 5%;
+}
+
+.consult:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    background-color: #3f0000;   
+}
+
+.btn {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+    background-color: #3f0000;
+    border-width: 1px;
+    border-color: #fbf7f5;
+    padding: 1% 5%;
+    margin: 3%;
+}
+
+.btn:hover {
+    font-size: 1.3rem;
+}
+
+.bgimage {
+    width: 94%;
+    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, 0) ), url('images/law.jpeg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 3rem;
+    margin: 3% 3% 3% 3%;   
+    z-index: -1;
+    overflow: visible;
+}
+
+.bgimage:hover {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #151515;
+}
+
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fbf7f5;
+    text-shadow: 1px 1px #000;
+}
+
+/* Navigation */
+.jon-nav-item {
+    font-size: 1rem !important;
+    font-family: 'Cardo';
+    letter-spacing: .5px;
+    font-weight: 700;
+    line-height: 1 !important;
+    margin-bottom: 0 !important;
+}
+
+.jon-nav-item:hover {
+    font-size: 2.1rem !important;
+}
+
+.jon-navbar-brand:hover {
+    font-size: 2.1rem !important;   
+}
+
+.jon-navbar-brand {
+    font-size: 1rem !important;
+    font-family: 'Cardo';
+    letter-spacing: .5px;
+    font-weight: 700;
+    line-height: 1 !important;
+    margin-bottom: 0 !important;
+}
+
+.nav-item {
+    font-size: 2rem;
+    font-family: 'Cardo';
+    letter-spacing: .5px;
+    font-weight: 700;
+}
+
+.nav-item :hover{
+    font-size: 2.1rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-family: 'Cardo';
+    letter-spacing: .5px;
+    font-weight: 700;
+}
+
+.bg-dark {
+    background-color: transparent !important;
+}
+
+.consult {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1));
+    background-color: #3f0000;
+    border-width: 1px;
+    border-color: #fbf7f5;
+    padding: 1% 5%;
+    margin: 3%;
+    border-radius: 4px;
+}
+
+/* Results */
+
+.results {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1));
+    background-color: #222;
+    border-radius: 2rem;
+    margin: 3% 3% 3% 3%;
+}
+
+.results:hover {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #3f0000;
+}
+
+.charge {
+    color: #fbf7f5;
+    margin: 3% 0 0 0; 
+    font-size: 1.5rem;  
+}
+
+.test {
+    padding: 5%;
+}
+
+.not-guilty {
+    color: #fbf7f5;
+    padding: 5%;
+    text-decoration: underline;
+    font-size: 1.8rem;
+}
+
+.check {
+    color: #3f0000;
+}
+
+/* About*/
+
+.about {
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 1000px; 
+    border-radius: 3rem;
+    padding: 5%;
+}
+
+.bubble {
+    border-radius: 3rem;
+    background-image:  linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0) ), url(images/about-law.jpeg); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 600px; 
+    width: 90%;
+    padding: 5%;
+    text-align: center;
+    display: inline-block;
+    float: none;
+    margin-bottom: 5%;
+    min-width: 450px;
+}
+
+.bubble:hover {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #151515;
+}
+
+.bubble2:hover {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #151515;
+}
+
+/* Location */
+
+.bubble2 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) ), url(images/law-location.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 600px; 
+    width: 95%;
+    border-radius: 3rem;
+    padding: 5%;
+    text-align: right;
+    display: inline-block;
+    float: none;
+    margin-bottom: 5%;
+    min-width: 450px;
+}
+
+.common-h2 {
+    color: #fbf7f5;
+    font-size: 5rem;
+    font-family: 'Cardo';
+    letter-spacing: .5px;
+    font-weight: 700;   
+    text-shadow: 2px 2px #000;
+}
+
+/* Reviews */
+
+.review {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1));
+    background-color: #3f0000;
+    border-radius: 3rem;
+    margin: 3% 3% 3% 3%;
+    padding: 5%;
+}
+
+.review:hover {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #151515;
+}
+
+.review-bubble {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1));
+    padding: 15% 10%;
+    border-style: solid;
+    border-color: #fbf7f5;
+    background-color: #222;
+    border-radius: 3rem;
+    border-width: 1px;
+    height: 300px;
+    margin: 20px;
+}
+
+.review-title {
+    color:#fbf7f5;
+}
+
+.review-p {
+    color: #fbf7f5;
+    padding: 5% 0;
+}
+
+.star {
+    color: gold;
+    padding: 1%;
+}
+
+.review-btn {
+    background-color: transparent;
+    background-image:  linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1) );
+}
+
+.review-btn:hover {
+    font-size: 2rem;
+}
+
+/* Footer */
+.footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1));
+    background-color: #151515;
+    padding: 7% 15%;
+}
+
+.social {
+    color: #fbf7f5;
+    margin: 20px 10px;
+    font-size: 4rem;
+    padding: 0 .3%;
+}
+.social:hover {
+    font-size: 4.7rem;
+}
