@@ -1,3 +1,9 @@
+html {
+    
+  
+ 
+}
+
 body {
     text-align: center;
     width: 100%;
@@ -44,6 +50,11 @@ body {
     background-attachment: fixed;
     overflow-x: scroll; 
     overflow: scroll;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
 }
 
 
