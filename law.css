@@ -351,7 +351,7 @@ body {
     
     .bubble2 {
         width: 96%;
-        padding: 5%;
+        padding: 15% 5%;
         transform: translateX(-2%);
         size: contain;
         box-sizing: border-box;
@@ -366,6 +366,7 @@ body {
     .review {
         width: 95%;
         padding: 5%;
+        transform: translateX(-.5%);
     }
     
     .common-h2 {
