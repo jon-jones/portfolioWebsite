@@ -354,10 +354,12 @@ body {
     .bubble2 {
         padding: 10%;
         transform: translateX(-3%);
+        size: contain;
     }
 
     .bubble {        
         padding: 10%;
+        size: contain;
     }
 
     .review {
