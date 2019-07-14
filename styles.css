@@ -1,22 +1,15 @@
 body {
     text-align: center;
+
 }
 
-.container-fluid {
-    padding: 7% 15%;
-}
-
-.white {
-    padding: 7% 15%;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
-    border-radius: 3rem;
-}
+/* Hero Section */
 
 .btn {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1));
-    background-color: #0d3c76;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    background-color: transparent;
     border-width: 1px;
-    border-color: #000;
+    border-color: #fff;
     padding: 1% 5%;
 }
 
@@ -28,8 +21,8 @@ body {
 .bgimage {
     width: 100%;
     height: 100vh;
-    margin:0;
-    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('images/index2.jpg');
+    margin: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/index2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -39,17 +32,20 @@ body {
 
 .big-title {
     color: white;
-    text-shadow: 4px 4px #000;
+    text-shadow: 2px 2px #333;
     font-size: 4rem;
     font-family: 'Exo 2';
     letter-spacing: .5px;
-    font-weight: 700;
-    padding-top: 40%;
-    margin: 40% 0;
+    font-weight: 900;
 }
 
+
 .hero-text {
-    text-align: center; 
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
 }
 
@@ -178,8 +174,8 @@ body {
 
 @media only screen and (max-width: 600px) {
     body {
-        overflow: hidden;
-        overflow-x: hidden;
+        overflow: scroll;
+        overflow-x: scroll;
     }
     .bgimage {
         background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('images/index2-mobile.jpg');
@@ -188,8 +184,6 @@ body {
         background-size: cover;
         padding: 5%;
         width: 100%;
-        overflow: hidden;
-        overflow-x: hidden;
     }
     
     .about-me {
@@ -197,8 +191,6 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
-        overflow: hidden;
-        overflow-x: hidden;
     }
 
 }
