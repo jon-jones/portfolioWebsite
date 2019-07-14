@@ -113,7 +113,7 @@ body {
     border-bottom: 1px solid white;
     border-top: 1px solid white;
     top: .52em;
-    width: 600px;
+    width: 250px;
 }
 
 .about-me-h2 span:before {
@@ -185,9 +185,9 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-    body {
-        overflow: scroll;
-        overflow-x: scroll;
+    html {
+        overflow: auto;
+        overflow-x: auto;
     }
     .bgimage {
         background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('images/index2-mobile.jpg');
@@ -205,5 +205,16 @@ body {
         width: 100%;
         padding: 5%;
     }
+
+    .about-me-h2 span:before,
+    .about-me-h2 span:after {
+        content:"";
+        position: absolute;
+        height: 5px;
+        border-bottom: 1px solid white;
+        border-top: 1px solid white;
+        top: .52em;
+        width: 100px;
+}
 
 }
