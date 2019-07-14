@@ -6,13 +6,15 @@ body {
     font-size: 4rem;
     font-family: 'Exo 2';
     font-weight: 900;
-    text-shadow: 2px 2px #333;    
+    text-shadow: 2px 2px #333;  
+    padding: 5%;  
 }
 
 .h2-title {
     color: white;
     font-family: 'Exo 2';
     font-weight: 900;
+    padding: 5%;
 }
 
 .work-title {
