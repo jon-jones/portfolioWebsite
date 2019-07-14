@@ -346,4 +346,28 @@ body {
         padding: 5%;
     }
 
+    .result {
+        width: 90%;
+        padding: 5%;
+        transform: translateX(-10%);
+    } 
+    
+    .bubble2 {
+        width: 90%;
+        padding: 5%;
+        transform: translateX(-3%);
+    }
+
+    .bubble {
+        width: 90%;
+        padding: 5%;
+    }
+
+    .review {
+        padding: 10%;
+    }
+    
+    .common-h2 {
+        font-size: 4rem;
+    }
 }
