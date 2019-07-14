@@ -251,6 +251,7 @@ body {
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
+        padding: 5%;
     }
     
     .location {
@@ -258,6 +259,7 @@ body {
         background-repeat: no-repeat; 
         background-size: cover; 
         height: 800px; 
+        padding: 5%;
     }
 
     .about-us-section {
@@ -265,6 +267,7 @@ body {
         background-repeat: no-repeat; 
         background-size: cover; 
         height: 1000px; 
+        padding: 5%;
     }
 
     .menu {
@@ -272,5 +275,6 @@ body {
         background-repeat: no-repeat; 
         background-size: cover; 
         height: 1330px; 
+        padding: 5%;
     }
 }

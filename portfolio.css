@@ -197,6 +197,7 @@ body {
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
+        padding: 5%;
     }
     
     .my-work {
