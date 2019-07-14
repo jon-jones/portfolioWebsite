@@ -266,6 +266,10 @@ body {
         background-repeat: no-repeat; 
         background-size: cover; 
         height: 1000px; 
+        padding: 20% 0;
+    }
+
+    .gradient {
         padding: 5%;
     }
 
