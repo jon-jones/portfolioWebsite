@@ -352,19 +352,19 @@ body {
     } 
     
     .bubble2 {
-        padding: 96%;
+        padding: 80%;
         padding: 5%;
         transform: translateX(-3%);
     }
 
     .bubble {        
-        width: 90%;
+        width: 80%;
         padding: 5%;
     }
 
     .review {
-        width: 90%;
-        padding: 10%;
+        width: 95%;
+        padding: 5%;
         transform: translateX(1%);
     }
     
