@@ -366,7 +366,6 @@ body {
     .review {
         width: 95%;
         padding: 5%;
-        transform: translateX(1%);
     }
     
     .common-h2 {
