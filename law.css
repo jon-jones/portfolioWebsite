@@ -350,7 +350,7 @@ body {
     } 
     
     .bubble2 {
-        width: 96%;
+        width: 100%;
         height: 100vh;
         padding: 5%;
         transform: translateX(-2%);
