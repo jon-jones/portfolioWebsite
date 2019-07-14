@@ -198,4 +198,23 @@ body {
     font-size: 3.3rem;
 }
 
+@media only screen and (max-width: 600px) {
+    .bgimage {
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) ), url('images/ecom-mobile.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
 
+    .work {
+        padding: 5%;
+        background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0) ), url('images/work-mobile.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
