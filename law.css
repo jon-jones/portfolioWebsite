@@ -335,9 +335,9 @@ body {
 
 @media only screen and (max-width: 600px) {
     .bgimage {
-        width: 100%;
+        width: 95%;
         height: 100vh;
-        margin: 0;
+        margin: 2%;
         background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, 0) ), url('images/law-mobile.jpg');
         background-repeat: no-repeat;
         background-position: center;
@@ -353,18 +353,20 @@ body {
     } 
     
     .bubble2 {
-        width: 90%;
+        padding: 96%;
         padding: 5%;
         transform: translateX(-3%);
     }
 
-    .bubble {
+    .bubble {        
         width: 90%;
         padding: 5%;
     }
 
     .review {
+        width: 90%;
         padding: 10%;
+        transform: translateX(1%);
     }
     
     .common-h2 {
