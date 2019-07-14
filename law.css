@@ -355,11 +355,13 @@ body {
         padding: 10%;
         transform: translateX(-3%);
         size: contain;
+        box-sizing: border-box;
     }
 
     .bubble {        
-        padding: 10%;
+        padding: 5%;
         size: contain;
+        box-sizing: border-box;
     }
 
     .review {
