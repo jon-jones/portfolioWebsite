@@ -45,8 +45,8 @@
 
     <body>
 
+        <section class="bgimage">
 
-        <div class="bgimage">
             <!-- Nav Bar -->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <a class="navbar-brand" href="index.html">Jon Jones</a>
@@ -67,39 +67,40 @@
                         </li>
                     </ul>
                 </div>
-            </nav>
-            <!--End Nav Bar-->
+            </nav><!--End Nav Bar-->
+
             <div class="container-fluid">
                 <div class="row">
                     <div class="hero-text">
                         <h1 class="hide big-title">I am Jon Jones</h1>
-                        <p>
-                            <div id="typed-strings">
-                                <p class="test">I am a <strong style="text-shadow: 1.3px 1.3px #333;">Developer</strong>
-                                </p>
-                                <p>I am a <strong style="text-shadow: 1.3px 1.3px #333;">Creator</strong></p>
-                                <p>I am a <strong style="text-shadow: 1.3px 1.3px #333;">Problem Solver</strong></p>
-                                <p>I am a <strong style="text-shadow: 1.3px 1.3px #333;">Thinker</strong></p>
-                                <p>I am a <strong style="text-shadow: 1.3px 1.3px #333;">Do'er</strong></p>
+                            <p>
+                                <div id="typed-strings">
+                                    <p class="test">I am a <strong style="text-shadow: 1.3px 1.3px #333;">Developer</strong>
+                                    </p>
+                                    <p>I am a <strong style="text-shadow: 1.3px 1.3px #333;">Creator</strong></p>
+                                    <p>I am a <strong style="text-shadow: 1.3px 1.3px #333;">Problem Solver</strong></p>
+                                    <p>I am a <strong style="text-shadow: 1.3px 1.3px #333;">Thinker</strong></p>
+                                    <p>I am a <strong style="text-shadow: 1.3px 1.3px #333;">Do'er</strong></p>
 
-                            </div>
-                            <span id="typed"></span>
-                            <script>
-                                $('document').ready(function () {
-                                    var typed = new Typed('#typed', {
-                                        stringsElement: '#typed-strings',
-                                        backSpeed: 40,
-                                        typeSpeed: 40,
-                                        loop: true
+                                </div>
+                                <span id="typed"></span>
+                                <script>
+                                    $('document').ready(function () {
+                                        var typed = new Typed('#typed', {
+                                            stringsElement: '#typed-strings',
+                                            backSpeed: 40,
+                                            typeSpeed: 40,
+                                            loop: true
+                                        });
                                     });
-                                });
-                            </script>
-                        </p>
+                                </script>
+                            </p>
                         <a href="contact-me.html"><button class="hide btn btn-dark btn-small">Hire Me</button></a>
                     </div>
                 </div>
             </div>
-        </div>
+
+        </section>
 
         <!-- About Me -->
         <section class="about-me" id="#about-me">
