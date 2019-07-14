@@ -83,6 +83,13 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
+    padding: 5%;
+}
+
+.gradient {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ); 
+    border-radius: 3rem;
+    padding: 3%;
 }
 
 .about-me-h2 {
@@ -131,6 +138,10 @@ body {
 
 /* My-Work */
 
+.work {
+    padding: 7% 15%;
+}
+
 .workicon {
     color: #0d3c76;
  }
@@ -159,7 +170,8 @@ body {
 /* Footer */
 .footer {
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1));
-    background-color: #0d3c76
+    background-color: #0d3c76;
+    padding: 7% 15%;
 }
 
 .social {
@@ -191,6 +203,7 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
+        padding: 5%;
     }
 
 }
