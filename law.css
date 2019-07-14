@@ -352,7 +352,7 @@ body {
     } 
     
     .bubble2 {
-        padding: 10%;
+        padding: 5%;
         transform: translateX(-3%);
         size: contain;
         box-sizing: border-box;
