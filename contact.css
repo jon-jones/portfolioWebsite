@@ -1,5 +1,5 @@
 body {
-    text-align: center;
+    text-align: center !important;
 }
 
 .contact {
@@ -74,15 +74,12 @@ body {
 
 /* Contact Form */
 
-.h1-responsive {
+.title {
     font-family: 'Exo 2';
+    padding: 5%;
 }
 
-.text-center {
-    font-family: 'Exo 2';
-}
-
-.form-control {
+.info {
     font-family: 'Exo 2';
 }
 
@@ -90,16 +87,8 @@ body {
     color: green;
 }
 
-.phone {
-    color: #0d3c76;
-}
-
 .email {
     color: #999;
-}
-
-.icon {
-    text-align: center;
 }
 
 /* Footer */
