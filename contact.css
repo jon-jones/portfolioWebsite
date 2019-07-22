@@ -98,6 +98,10 @@ body {
     color: #999;
 }
 
+.icon {
+    text-align: center;
+}
+
 /* Footer */
 .footer {
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1));
