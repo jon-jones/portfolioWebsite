@@ -21,7 +21,7 @@ document.querySelector('.btn-roll').addEventListener('click', function()  {
     var dice =  Math.floor(Math.random() * 6) + 1;
     var dice2 = Math.floor(Math.random() * 6) + 1;
     //if two 6s in a row are rolled player loses total points and goes to next players turn
-    if (dice == 6 && dice2 == 6) {
+    if (dice === 6 && dice2 === 6) {
         scores[activePlayer] = 0;
         nextPlayer();
     }
@@ -121,9 +121,3 @@ function finalScoreSet() {
     inputScore.setAttribute("type", "text");
     inputScore.setAttribute("")
 }
-
-//document.querySelector('#current-' + activePlayer).textContent = dice;
-////document.querySelector('current-' + activePlayer).innerHTML = '<em>' + dice + '</em>';
-//
-//var x = document.querySelector('#score-0').textContent;
-//console.log(x);
